@@ -14,7 +14,7 @@
     <meta property="og:title" content="Ezored - C++ Multiplatform Toolkit Template" />
     <meta property="og:site_name" content="Ezored">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://ezored.github.io/images/opengraph.png?r=2021-06-03">
+    <meta property="og:image" content="https://ezored.github.io/assets/img/opengraph.png?r=2021-11-13">
     <meta property="og:url" content="https://ezored.github.io" />
     <meta property="og:description" content="Ezored Philosophy: Write Once And Compile Anywhere" />
     <meta property="og:locale" content="en" />
@@ -22,91 +22,202 @@
     <meta property="twitter:card" content="summary" />
     <meta property="twitter:title" content="Ezored - C++ Multiplatform Toolkit Template" />
     <meta property="twitter:description" content="Ezored Philosophy: Write Once And Compile Anywhere" />
-    <meta property="twitter:image" content="https://ezored.github.io/images/opengraph.png?r=2021-06-03">
+    <meta property="twitter:image" content="https://ezored.github.io/assets/img/opengraph.png?r=2021-11-13">
     <meta property="twitter:site" content="Paulo Coutinho">
 
     <title>Ezored - C++ Multiplatform Toolkit Template</title>
 
-    <link rel="stylesheet" href="/css/bulma.min.css?r=2021-06-03" />
-    <link rel="shortcut icon" href="/images/favicon.ico?r=2021-06-03" type="image/x-icon">
-    <link rel="icon" type="image/png" href="/images/favicon.png?r=2021-06-03" />
-    <style>
-        body {
-            text-align: center;
-        }
+    <!-- Favicons -->
+    <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+    <link href="/assets/img/favicon.png" rel="icon">
+    <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-        .logo {
-            max-width: 250px;
-        }
-    </style>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="/assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <section class="hero is-dark is-bold">
-        <div class="hero-body">
-            <div class="container has-text-centered">
-                <h1 class="title">
-                    Ezored
-                </h1>
-                <br>
-                <h2 class="subtitle">
-                    C++ Multiplatform Toolkit Template
-                    <br>
-                    Ezored Philosophy: Write Once And Compile Anywhere
-                </h2>
-                <br>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top ">
+        <div class="container d-flex align-items-center">
+
+            <h1 class="logo me-auto">
+                <a href="/">Ezored</a>
+            </h1>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="/">Home</a></li>
+                    <li><a class="nav-link scrollto" href="https://github.com/ezored/ezored">Source code</a></li>
+                    <li><a class="nav-link scrollto"
+                            href="https://ezored.s3.amazonaws.com/docs/index.html">Documentation</a></li>
+                    <li><a class="nav-link scrollto" href="mailto:paulo@prsolucoes.com">Contact</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+
+        </div>
+    </header><!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+                    data-aos="fade-up" data-aos-delay="200">
+                    <h1>C++ Multiplatform Toolkit Template</h1>
+                    <h2>Ezored Philosophy: Write Once And Compile Anywhere</h2>
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                        <a href="https://ezored.s3.amazonaws.com/docs/index.html" class="btn-get-started scrollto">Get
+                            Started</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="/assets/img/hero-img.png" class="img-fluid animated" alt="">
+                </div>
             </div>
         </div>
-    </section>
 
-    <br>
-    <br>
+    </section><!-- End Hero -->
 
-    <div class="block">
-        <img src="images/logo.png?r=2021-06-03" alt="" class="logo" />
-    </div>
+    <main id="main">
 
-    <br>
-    <hr>
-    <br>
+        <!-- ======= About Project Section ======= -->
+        <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
 
-    <div class="block">
-        <img src="images/what-is.png?r=2021-06-03" alt="" class="what-is" style="max-width: 300px;" />
-    </div>
+                <div class="section-title">
+                    <h2>About Project</h2>
+                </div>
 
-    <br>
+                <div class="row content">
+                    <div class="col-lg-6">
+                        <p>
+                            What Ezored Is?
+                        </p>
+                        <ul>
+                            <li>
+                                <i class="ri-check-double-line"></i>
+                                An easy way to attach and compile native code to your applications
+                            </li>
+                            <li>
+                                <i class="ri-check-double-line"></i>
+                                A toolkit template ready to use in production
+                            </li>
+                            <li>
+                                <i class="ri-check-double-line"></i>
+                                Shared business logic code between all your applications
+                            </li>
+                            <li>
+                                <i class="ri-check-double-line"></i>
+                                Let you use any C or C++ library in your projects
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0">
+                        <p>
+                            ... more
+                        </p>
+                        <ul>
+                            <li>
+                                <i class="ri-check-double-line"></i>
+                                You can attach the compiled shared code to your applications
+                            </li>
+                            <li>
+                                <i class="ri-check-double-line"></i>
+                                Very organized scripts that can be executed from command-line
+                            </li>
+                            <li>
+                                <i class="ri-check-double-line"></i>
+                                Don't need rewrite your applications from scratch like others
+                            </li>
+                            <li>
+                                <i class="ri-check-double-line"></i>
+                                Free for everyone
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
-    <div class="block">
-        <a class="button is-dark is-rounded" href="https://github.com/ezored/ezored">Go to project repository &rarr;</a>
-    </div>
+            </div>
+        </section><!-- End About Us Section -->
 
-    <br>
+    </main><!-- End #main -->
 
-    <div class="block">
-        <a class="button is-dark is-rounded" href="https://ezored.s3.amazonaws.com/docs/index.html">Go to documentation
-            &rarr;</a>
-    </div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
 
-    <br>
-    <hr>
-    <br>
+        <div class="footer-newsletter">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h4>Contact me if you have any question</h4>
+                        <a href="mailto:paulo@prsolucoes.com">paulo@prsolucoes.com</a>
+                        <p></p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4>Open an issue if you find any problem or want contribute</h4>
+                        <a href="https://github.com/ezored/ezored/issues">https://github.com/ezored/ezored/issues</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    Author: <a href="https://github.com/paulo-coutinho" target="_blank">Paulo Coutinho</a>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
 
-    <br>
-    <br>
-    <br>
-    <br>
+                    <div class="col-lg-10 col-md-6 footer-contact">
+                        <h3>Paulo Coutinho</h3>
+                        <p>
+                            Mobile Manager And Developer <br>
+                            <strong>Email:</strong> paulo@prsolucoes.com<br>
+                        </p>
+                    </div>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FY68YK0K02"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="https://github.com/ezored/ezored">Source
+                                    code</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a
+                                    href="https://ezored.s3.amazonaws.com/docs/index.html">Documentation</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        gtag('config', 'G-FY68YK0K02');
-    </script>
+        <div class="container footer-bottom clearfix">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Ezored</span></strong>. All Rights Reserved
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="/assets/vendor/aos/aos.js"></script>
+    <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="/assets/js/main.js"></script>
 
 </body>
 
